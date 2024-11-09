@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+}
+.container{
+    width: 1180px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation-list {
+   /* flex-grow: 1;*/
+    display: flex;
+    /*flex-basis: 500px;щоб зрозуміти скільки простору займе цей елемент*/
+    /*background-color: rgb(189, 139, 79);
+    flex:2 1 300px; grow shrink basic */
+}/*order визначає порядок
+.navigation-item {
+    margin-right: 32px;
+}
+.navigation-item:nth-child(1) {
+    order: 3;
+}
+.navigation-item:nth-child(2){
+    order: 4;
+}
+
+.navigation-item:nth-child(3){
+    order: 2;
+
+}
+.navigation-item:nth-child(4){
+    order: 1;
+}*/
+.navigation-item:last-child {
+    margin-right: 0;
+}
+.navigation-link {
+    margin-right: 32px;
+}
+.navigation-contact {
+    /*flex-grow: 4;*/
+    display: flex;
+    /*background-color: rgb(222, 166, 98);
+    flex:1 2 300px;*/
+}
+.contact-item {
+}
