@@ -1,3 +1,8 @@
+:root{
+--beigh:#E7DFD8;
+}
+
+
 a{
     text-decoration: none;
 }
@@ -60,4 +65,10 @@ h1,h2,h3,h4,p,ul,li{
     flex:1 2 300px;*/
 }
 .contact-item {
+   
+}
+.advantages{
+    background-color: var(--beigh);
+    padding-top: 76px;
+    padding-bottom: 86px;
 }
