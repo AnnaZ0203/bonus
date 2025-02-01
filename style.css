@@ -72,8 +72,32 @@ h1,h2,h3,h4,p,ul,li{
     padding-top: 76px;
     padding-bottom: 86px;
 }
+/*praaaaaccccticeeee*/
+.div{
+    display: inline-block;
+ border: 4px solid red ;
+ border-radius: 10%;
+ overflow: hidden;/*hides the picure behind */
+}
+.box{
+    position: relative;
+width: 400px;
+height: 400px;
+background-color: pink;
+overflow: hidden;
+}
+.overlay{
+width: 100%;
+height: 100%;
+background-color: rgba(255, 255, 0, 0.317);
+    position: absolute;
+   top: 400px;
+transition: transform 250ms ease;
+}
+.box:hover .overlay{
+    transform: translateY(-100%);
 
-
+}
 /*modal js*/
 .backdrop {
     position: fixed;
@@ -84,7 +108,7 @@ h1,h2,h3,h4,p,ul,li{
     background-color: rgb(251, 5, 5);
     opacity: 1;
 }
-.backdrop.is-hidden {
+.backdrop{
     opacity: 0;
 }
 .modal {
